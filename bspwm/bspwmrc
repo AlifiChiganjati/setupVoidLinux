@@ -1,0 +1,27 @@
+#! /bin/sh
+
+# Start up processes
+pgrep -x sxhkd >/dev/null || sxhkd &
+
+# BSPWM config
+
+bspc monitor -d 1 2 3 4 5
+
+bspc config border_width 2
+bspc config window_gap 6
+
+bspc config normal_border_color "#eceff4"
+bspc config focused_border_color "#81A1C1"
+
+bspc config split_ratio 0.5
+bspc config borderless_monocle false
+bspc config gapless_monocle false
+
+#auto start
+sxhkd &
+numlockx on &
+xsetroot -cursor_name Nordzy-cursors-white &
+picom --config ~/.config/picom/picom.conf &
+nitrogen --restore &
+dunst &
+polybar &
