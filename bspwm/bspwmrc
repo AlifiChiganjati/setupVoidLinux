@@ -20,8 +20,10 @@ bspc config gapless_monocle false
 #auto start
 sxhkd &
 numlockx on &
-xsetroot -cursor_name Nordzy-cursors-white &
+xsetroot -cursor_name left_ptr &
 picom --config ~/.config/picom/picom.conf &
 nitrogen --restore &
+xautolock -time 10 -locker "betterlockscreen -l -u ~/Pictures/Wallpapers/" -killtime 15 -detectsleep &
+brightnessctl g 40% &
 dunst &
 polybar &
