@@ -24,6 +24,6 @@ xsetroot -cursor_name left_ptr &
 picom --config ~/.config/picom/picom.conf &
 nitrogen --restore &
 xautolock -time 10 -locker "betterlockscreen -l -u ~/Pictures/Wallpapers/" -killtime 15 -detectsleep &
-brightnessctl s 40% &
+brightnessctl s 30% &
 dunst &
 polybar &
