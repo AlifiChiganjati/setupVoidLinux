@@ -141,7 +141,7 @@ XF86AudioMute
 # Brightness
 #
 XF86MonBrightness{Up,Down}
-	      brightnessctl s 5%{+,-}
+	      brightnessctl g 5%{+,-}
 # lockscreen
 super + x
 	      betterlockscreen -l -u "~/Pictures/Wallpapers/"
