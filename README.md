@@ -1,0 +1,2 @@
+# setupVoidLinux
+WE: bspwm
