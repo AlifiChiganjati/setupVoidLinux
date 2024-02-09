@@ -2,6 +2,6 @@
 return {
   "andrewferrier/wrapping.nvim",
   config = function()
-    require("wrapping").setup()
+    require("wrapping").get_current_mode("soft")
   end,
 }
