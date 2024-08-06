@@ -43,7 +43,7 @@ cp .bashrc ~/.bashrc
 # Config BSPWM
 
 ```
-sudo xbps-install -S xorg-minimal dunst libnotify eza cmatrix ranger bspwm sxhkd fastfetch htop kitty picom polybar rofi neovim xclip arandr slurp scrot starship xautolock betterlockscreen brightnessctl numlockx feh  libreoffice xsetroot python3-Pillow
+sudo xbps-install -S xorg-minimal dunst libnotify eza cmatrix ranger bspwm sxhkd fastfetch htop kitty picom polybar rofi neovim xclip arandr slurp scrot starship xautolock betterlockscreen brightnessctl numlockx feh  libreoffice xsetroot python3-Pillow firefox speech-dispatcher speech-dispatcher-devel
 ```
 
 # Inspirations
