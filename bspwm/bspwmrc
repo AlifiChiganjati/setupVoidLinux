@@ -2,9 +2,6 @@
 
 # Start up processes
 pgrep -x sxhkd >/dev/null || sxhkd &
-# pgrep -x pipewire >/dev/null || pipewire &
-# pgrep -x pipewire-pulse >/dev/null || pipewire-pulse &
-# pgrep -x wireplumber >/dev/null || wireplumber &
 
 # BSPWM config
 
